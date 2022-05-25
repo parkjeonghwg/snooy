@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: "궁서체";
+    font-size: 17px;
+    list-style: none;
+    text-decoration: none;
+
+ }
+ #wrap{
+    width: 1100px;
+    margin: 0 auto;
+ }
+ header{
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: yellow;
+    padding: 10px;
+    
+ }
+
+ header h1 {
+    text-align: center;
+ }
+ nav{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: gold;
+    margin: 5px 0;
+    height: 30px;
+ }
+ nav ul li{
+    float: left;
+    padding: 0 20px 0 0;
+    line-height: 30px;
+ }
+ nav ul li a{
+   text-align: center;
+    color: #0d44fa;
+    padding: 130px 130px 130px 130px;
+    
+ }
+ nav ul li a:hover{
+    background: #006400;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 18px;
+ }
+ 
+ section ul li{
+    float: left;
+    position: relative;
+    
+ }
+section ul li p{
+   position: absolute;
+   
+}
+section p{
+   font-size: 30px;
+   color: aqua;
+  
+   
+}
+
+
+ footer{
+    clear:both;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: pink;
+    color: navy;
+    padding:10px 500px;
+    
+ }
